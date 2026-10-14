@@ -1,0 +1,54 @@
+# ── Secrets ───────────────────────────────────────────────────────────────────
+.env
+*.env
+backend/.env
+frontend/.env
+
+# ── Uploaded PDFs and generated indexes ───────────────────────────────────────
+data/uploads/
+data/faiss_index/
+
+# ── Python ────────────────────────────────────────────────────────────────────
+__pycache__/
+*.py[cod]
+*.pyo
+*.pyd
+.Python
+.venv/
+venv/
+env/
+*.egg-info/
+dist/
+build/
+.pytest_cache/
+.mypy_cache/
+htmlcov/
+.coverage
+coverage.xml
+
+# ── Node / Frontend ───────────────────────────────────────────────────────────
+node_modules/
+frontend/dist/
+frontend/.vite/
+*.tsbuildinfo
+
+# ── OS ────────────────────────────────────────────────────────────────────────
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# ── IDEs ──────────────────────────────────────────────────────────────────────
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# ── Docker ────────────────────────────────────────────────────────────────────
+postgres_data/
+
+# Local databases and logs
+*.db
+*.db-*
+*.sqlite
+*.sqlite3
+*.log
